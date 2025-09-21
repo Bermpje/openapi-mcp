@@ -1600,7 +1600,7 @@ func RegisterOpenAPITools(server *mcpserver.MCPServer, ops []OpenAPIOperation, d
 			return &mcp.CallToolResult{
 				Content: []mcp.Content{
 					mcp.TextContent{
-						Type: "json",
+						Type: "text",
 						Text: string(jsonOut),
 					},
 				},
